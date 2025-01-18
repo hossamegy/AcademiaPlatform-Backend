@@ -48,27 +48,27 @@ Welcome to the **AcademiaPlatform-Backend** repository! This is the backend for 
    git clone https://github.com/your-username/AcademiaPlatform-Backend.git
    cd AcademiaPlatform-Backend
 
- 2. **Install dependencies:
+ 2. **Install dependencies**:
    ```bash
     npm install
    ```
 
-  3. **Set up environment variables:
+  3. **Set up environment variables**:
     Create a .env file in the root directory and add the following variables:
-    ```bash
-    MONGODB_URL=url
-    PORT=3000
-    HOST=127.0.0.1
-    MODE_ENV=development
-    JWT_SECRET_KEY=your_jwt_secret_key
-    JWT_EXPIRED_TIME=30d
-    ```
+       ```bash
+       MONGODB_URL=url
+       PORT=3000
+       HOST=127.0.0.1
+       MODE_ENV=development
+       JWT_SECRET_KEY=your_jwt_secret_key
+       JWT_EXPIRED_TIME=30d
+       ```
 
-  4. **Start the server:
-    ```bash
-    npm start
-    ```
-  5. **Access the API:
+  4. **Start the server**:
+       ```bash
+       npm start
+       ```
+  5. **Access the API**:
     The API will be running at http://127.0.0.1:3000.
 
 ---
