@@ -13,7 +13,6 @@ Welcome to the **AcademiaPlatform-Backend** repository! This is the backend for 
 5. [API Endpoints](#api-endpoints)
 6. [Error Handling](#error-handling)
 7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
@@ -72,6 +71,8 @@ Welcome to the **AcademiaPlatform-Backend** repository! This is the backend for 
   5. **Access the API:
     The API will be running at http://127.0.0.1:3000.
 
+---
+
 ## Environment Variables
   - Variable Name	Description	Default Value
   - MONGODB_URL	MongoDB connection URL
@@ -80,6 +81,8 @@ Welcome to the **AcademiaPlatform-Backend** repository! This is the backend for 
   - MODE_ENV	Environment mode (development/production)	development
   - JWT_SECRET_KEY	Secret key for JWT token generation	-
   - JWT_EXPIRED_TIME	Expiration time for JWT tokens	30d
+
+ ---
  
 ## API Endpoints
 Authentication
@@ -158,7 +161,9 @@ The API uses custom error handling middleware to provide meaningful error messag
 
    - InternalServerError: For server-side errors (500).
 
-Contributing
+---
+
+## Contributing
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
